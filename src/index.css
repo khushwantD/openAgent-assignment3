@@ -90,12 +90,34 @@ html, body {
   border-radius: .5rem;
 }
 
-.city-card > p{
+.city-card > h4{
+  font-weight: 600;
+}
+
+.city-card > .temp > p{
   font-weight: 500;
+}
+
+.city-card > .temp > p > span{
+  font-weight: 300;
 }
 
 .city-card > p > span{
   font-weight: 300;
+}
+
+.temp{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.temp-btn{
+  background-color: #E25E3E;
+  color: #ffe9e6;
+  border: none;
+  border-radius: .5rem;
+  padding: .3rem .5rem;
 }
 
 .btn-container{

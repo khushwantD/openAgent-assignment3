@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar"
-import WeatherDashboard from "./components/weatherApp"
+import WeatherDashboard from "./components/WeatherApp"
 
 function App() {
   
