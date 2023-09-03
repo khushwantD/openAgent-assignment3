@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+}
+
+/*navbar */
+
+.navbar{
+  display: flex;
+  background-color: #E25E3E;
+  color: #ffeae5;
+  min-height: 4rem;
+}
+
+.logo{
+  font-size: 1.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+/* main section */
+
+.main-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-container{
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.search-bar{
+  min-width: 30%;
+  background-color: #fcf6f5;
+  border: 1px solid #E25E3E;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+.search-btn {
+  border-radius: .5rem;
+  border: 3px solid transparent;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.search-btn:hover {
+  border-color: #646cff;
+}
+.search-btn:focus,
+.search-btn:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+.city-cards-container{
+  width: 100%;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.city-card{
+  background-color: #ffe9e6;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.city-card > p{
+  font-weight: 500;
+}
+
+.city-card > p > span{
+  font-weight: 300;
+}
+
+.btn-container{
+  margin-top: .5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-btn{
+  border-radius: .5rem;
+  border: 2px solid transparent;
+  padding: 0.3rem .5rem;
+  font-size: .8rem;
+  font-weight: 300;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.card-btn:hover{
+  border-color: #646cff;
+}
+
+
+
